@@ -22,7 +22,8 @@ X_test = sc.transform(X_test)
 
 # Applying PCA
 from sklearn.decomposition import PCA
-pca = PCA(n_components = 2)
+pca = PCA(n_components = 2)  # to choose value of n_components , first put n_components=None , check explained_varaince where it shows
+#new extraxted independent variables that explained the most variance.from that choose how much variance we need.
 X_train = pca.fit_transform(X_train)
 X_test = pca.transform(X_test)
 explained_variance = pca.explained_variance_ratio_
