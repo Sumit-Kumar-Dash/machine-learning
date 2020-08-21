@@ -1,2 +1,2 @@
 # machine-learning
-All types of machine learning algorithms 
+ All types of machine learning algorithms 
